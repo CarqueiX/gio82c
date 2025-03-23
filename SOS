@@ -1,0 +1,19 @@
+Hellow @gio82c , i have work SOS button. I write on this, becouse the post it's closed.
+I used your code and work good.
+I made this:
+In homeassistant, with file editor, I have made folder "external_convert" on /homeassistant/zigbee2mqtt
+Them, i have creator "ext_converte.js" on /homeassistant/zigbee2mqtt/external_converters/
+The final route it's = /homeassistant/zigbee2mqtt/external_converters/ext_converte.js
+Paste your config in ext_converte.js
+Them, in /homeassistant/zigbee2mqtt , i write 
+
+external_convert
+       - ext_converte.js
+
+![Image](https://github.com/user-attachments/assets/58964c4d-266f-4553-b9c0-56b0a077c333)
+
+on configuration.yaml (/homeassistant/zigbee2mqtt/configuration.yaml)
+
+Finish, restart Zigbee2mqtt and work.
+
+Thanks for your aport.
